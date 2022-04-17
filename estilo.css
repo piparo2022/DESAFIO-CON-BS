@@ -51,6 +51,16 @@ body {
    animation-name: mover;
    animation-duration: 3s;
    animation-iteration-count: infinite;
+   animation-duration: normal;
+}
+/*//ANIMACIONES*/
+@keyframes mover {
+   from {
+      background-color: red;
+   }
+   to {
+      background-color: blue;
+   }
 }
 
 /*////PANTALLA COPLETA/////*/
@@ -93,20 +103,5 @@ body {
       width: 30;
       height: 30;
       margin: 2px;
-   }
-   /*//ANIMACIONES*/
-   @keyframes mover {
-      0% {
-         transform: translateX(0);
-      }
-      100% {
-         transform: translateX(100%) translateY(100%);
-      }
-      /*  from {
-         background-color: blue;
-      }
-      to {
-         background-color: red;
-      }*/
    }
 }
