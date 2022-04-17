@@ -48,18 +48,31 @@ body {
    position: relative;
 }
 #ubi {
-   animation-name: mover;
+   animation-name: cambioColor;
    animation-duration: 3s;
    animation-iteration-count: infinite;
    animation-duration: normal;
 }
-/*//ANIMACIONES*/
-@keyframes mover {
+@keyframes cambioColor {
    from {
       background-color: red;
    }
    to {
       background-color: blue;
+   }
+}
+#mov1 {
+   animation-name: mover;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-duration: normal;
+}
+@keyframes mover {
+   0% {
+      transform: translateX(0);
+   }
+   100% {
+      transform: translateX(100%);
    }
 }
 
