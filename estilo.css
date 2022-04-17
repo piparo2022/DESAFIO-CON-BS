@@ -83,7 +83,35 @@ body {
 }
 #servicios:hover {
    box-shadow: 4px 10px 25px rgba(0, 0, 0, 1);
-   transform: translateY(-3%);
+   transform: translateY(-5%);
+}
+#equipo {
+   width: 100%;
+   cursor: default;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+   transition: all 500ms ease;
+}
+#equipo:hover {
+   box-shadow: 4px 10px 25px rgba(0, 0, 0, 1);
+   transform: translateX(-2%);
+}
+#wh {
+   transition: all 300ms ease;
+}
+#wh:hover {
+   transform: translateX(-5%);
+}
+#fc {
+   transition: all 300ms ease;
+}
+#fc:hover {
+   transform: translateY(-5%);
+}
+#inst {
+   transition: all 300ms ease;
+}
+#inst:hover {
+   transform: translateY(5%);
 }
 
 /*////PANTALLA COPLETA/////*/
