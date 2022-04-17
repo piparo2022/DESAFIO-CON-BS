@@ -63,7 +63,7 @@ body {
 }
 #mov1 {
    animation-name: mover;
-   animation-duration: 2s;
+   animation-duration: 10s;
    animation-iteration-count: infinite;
    animation-duration: 10s;
 }
@@ -74,6 +74,16 @@ body {
    100% {
       transform: translateX(100%);
    }
+}
+#servicios {
+   width: 100%;
+   cursor: default;
+   box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.5);
+   transition: all 400ms ease;
+}
+#servicios:hover {
+   box-shadow: 4px 10px 25px rgba(0, 0, 0, 1);
+   transform: translateY(-3%);
 }
 
 /*////PANTALLA COPLETA/////*/
