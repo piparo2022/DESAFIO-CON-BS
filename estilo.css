@@ -63,9 +63,9 @@ body {
 }
 #mov1 {
    animation-name: mover;
-   animation-duration: 5s;
+   animation-duration: 2s;
    animation-iteration-count: infinite;
-   animation-duration: normal;
+   animation-duration: 10s;
 }
 @keyframes mover {
    0% {
