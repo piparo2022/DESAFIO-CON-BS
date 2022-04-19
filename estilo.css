@@ -173,7 +173,11 @@ body {
    }*/
    #intro,
    #equipo {
-      width: 90% !important;
+      width: 100% !important;
+   }
+   #equipo1 {
+      width: 100% !important;
+      padding-top: 5px;
    }
    .servicio-fila {
       width: 100% !important;
@@ -186,6 +190,9 @@ body {
    #nosotros img {
       border: solid goldenrod;
       width: 80%;
+   }
+   #Nos {
+      flex-direction: column;
    }
    #redes img {
       width: 30;
