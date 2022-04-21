@@ -55,26 +55,12 @@ body {
 }
 @keyframes cambioColor {
    from {
-      background-color: red;
+      background-color: cornsilk;
    }
    to {
-      background-color: blue;
+      background-color: azure;
    }
 }
-/*#mov1 {
-   animation-name: mover;
-   animation-duration: 5s;
-   animation-iteration-count: infinite;
-   animation-duration: 50s;
-}
-@keyframes mover {
-   0% {
-      transform: translateX(0);
-   }
-   100% {
-      transform: translateX(100%);
-   }
-}*/
 
 #mov1 {
    padding-left: 10px;
@@ -198,5 +184,13 @@ body {
       width: 30;
       height: 30;
       margin: 2px;
+   }
+   #presentacion {
+      width: 100% !important;
+      text-align: center;
+   }
+   #presentacion img {
+      border: solid goldenrod;
+      width: 80%;
    }
 }
