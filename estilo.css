@@ -73,19 +73,19 @@ body {
       transform: scale(1);
    }
    20% {
-      transform: scale(1.05);
+      transform: scale(1.01);
    }
    40% {
-      transform: scale(1.06);
+      transform: scale(1.02);
    }
    60% {
-      transform: scale(1.07);
+      transform: scale(1.03);
    }
    80% {
-      transform: scale(1.08);
+      transform: scale(1.04);
    }
    100% {
-      transform: scale(1.09);
+      transform: scale(1.05);
    }
 }
 #servicios {
