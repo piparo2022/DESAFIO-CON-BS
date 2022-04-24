@@ -199,7 +199,7 @@ body {
    }
    #ubicanos {
       background: blue;
-      background: linear-gradient(to right, rgb(140, 140, 185), rgb(99, 99, 247));
+      background: linear-gradient(to left, rgb(140, 140, 185), rgb(99, 99, 247));
       color: #f3f3f3;
    }
    .fondo {
