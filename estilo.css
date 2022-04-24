@@ -43,10 +43,14 @@ body {
    height: 48px;
 }
 #contacto {
-   background-color: red;
+   /* background-color: red;*/
    min-height: 500px;
    position: relative;
 }
+
+.img12 {
+}
+
 #ubi {
    animation-name: cambioColor;
    animation-duration: 3s;
@@ -192,5 +196,14 @@ body {
    #presentacion img {
       border: solid goldenrod;
       width: 80%;
+   }
+   #ubicanos {
+      background: blue;
+      background: linear-gradient(to right, rgb(140, 140, 185), rgb(99, 99, 247));
+      color: #f3f3f3;
+   }
+   .fondo {
+      background: red;
+      background: linear-gradient(to right, rgb(141, 94, 94), red);
    }
 }
