@@ -17,9 +17,9 @@
    </head>
    <body>
       <!--encabezado-->
-      <header class="container-fluid bg-danger d-flex justify-content-ceneter bg-danger">
+      <header class="container-fluid bg-danger d-flex justify-content-ceneter" id="color-Header">
          <img class="logo" src="imagenes2/pyp.png" alt="" />
-         <nav class="navbar navbar-expand-lg navbar-light bg-danger p-2" id="menu">
+         <nav class="navbar navbar-expand-lg navbar-light p-2" id="menu">
             <div class="container-fluid">
                <a class="navbar-brand text-danger" href="#" id="ubi">PYP MOTOR</a>
                <button
@@ -67,33 +67,34 @@
          </nav>
       </header>
       <!--MAIN-->
-      <section class="w-75 ms-5 text-aline-right" id="intro">
-         <h1 class="fs-2 mt-4">
-            Un taller a la altura de tus necesidades, exigencias y requerimientos<span
-               class="text-danger"
-            >
-               PYP MOTOR
-            </span>
-         </h1>
-         <p class="text-primary" id="mov1">
-            En <span class="text-danger">PYP MOTOR</span> siempre tendremos la mejor disposicion y
-            actitud para brindarte un srvicio acorde a tus exigencias.
-         </p>
-      </section>
 
       <!--IMAGENES DE INTRODUCCION-->
+
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-         <div class="carousel-inner mt-2">
+         <div class="carousel-inner mt-4">
             <div class="carousel-item active">
-               <img src="imagenes2/motor.jpg" class="d-block w-100" alt="..." />
+               <img src="imagenes2/motor.jpg" class="d-block w-75 mx-auto" alt="..." />
             </div>
             <div class="carousel-item">
-               <img src="imagenes2/frenos.jpg" class="d-block w-100" alt="..." />
+               <img src="imagenes2/frenos.jpg" class="d-block w-75 mx-auto" alt="..." />
             </div>
             <div class="carousel-item">
-               <img src="imagenes2/escaner1.jpg" class="d-block w-100" alt="..." />
+               <img src="imagenes2/escaner1.jpg" class="d-block w-75 mx-auto" alt="..." />
             </div>
          </div>
+         <section class="w-75 ms-5 text-aline-right" id="intro">
+            <h1 class="fs-2 mt-4">
+               Un taller a la altura de tus necesidades, exigencias y requerimientos<span
+                  class="text-danger"
+               >
+                  PYP MOTOR
+               </span>
+            </h1>
+            <p class="text-primary" id="mov1">
+               En <span class="text-danger">PYP MOTOR</span> siempre tendremos la mejor disposicion
+               y actitud para brindarte un srvicio acorde a tus exigencias.
+            </p>
+         </section>
          <button
             class="carousel-control-prev"
             type="button"
@@ -113,6 +114,7 @@
             <span class="visually-hidden">Next</span>
          </button>
       </div>
+
       <!--SERVICIOS-->
       <section class="container-fluid mt-4" id="servicios">
          <div class="row pt-5 servicio-fila">

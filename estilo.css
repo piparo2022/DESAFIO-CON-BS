@@ -12,11 +12,25 @@ body {
    width: 100px;
    height: 60px;
 }
+#color-Header {
+   background: linear-gradient(to left, blue, red);
+}
 
+/*.carousel-inner {
+   height: 500px;
+   width: 100%;
+}*/
+
+#menu {
+   background: linear-gradient(to left, rgb(230, 104, 104), rgb(131, 11, 11));
+}
 #menu a {
    font-size: 20px;
    font-weight: lighter;
-   color: black;
+   color: rgb(19, 241, 56);
+}
+#intro {
+   text-align: center;
 }
 /*/REGISTRO/////////////*/
 /*.mapa {
