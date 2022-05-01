@@ -220,4 +220,15 @@ body {
       background: red;
       background: linear-gradient(to right, rgb(141, 94, 94), red);
    }
+   #servicios {
+      background: linear-gradient(to left, rgb(135, 224, 135), rgb(58, 243, 58));
+      color: #f3f3f3;
+   }
+   #servicios p {
+      color: blueviolet;
+      font-family: cursive;
+   }
+   #servicios h3 {
+      color: blueviolet;
+   }
 }
