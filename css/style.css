@@ -20,6 +20,10 @@ body {
   background: linear-gradient(to left, blue, red);
 }
 
+#ubi {
+  color: wheat;
+}
+
 #menu {
   background: linear-gradient(to left, rgb(230, 104, 104), rgb(131, 11, 11));
 }
