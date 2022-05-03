@@ -1,0 +1,249 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,900;1,100&family=Roboto:ital,wght@0,300;0,500;0,900;1,100&display=swap");
+
+body {
+   font-family: "Montserrat", sans-serif;
+   overflow-x: hidden;
+}
+.logo {
+   width: 100px;
+   height: 60px;
+}
+#color-Header {
+   background: linear-gradient(to left, blue, red);
+}
+
+/*.carousel-inner {
+   height: 500px;
+   width: 100%;
+}*/
+
+#menu {
+   background: linear-gradient(to left, rgb(230, 104, 104), rgb(131, 11, 11));
+}
+#menu a {
+   font-size: 20px;
+   font-weight: lighter;
+   color: rgb(19, 241, 56);
+}
+#intro {
+   text-align: center;
+}
+/*/REGISTRO/////////////*/
+/*.mapa {
+   background: url(/imagenes2/mapa.png);
+   width: 100%;
+   height: 500px;
+   background-repeat: no-repeat;
+   align-items: center;
+}*/
+#local {
+   background-color: #f3f3f3;
+   padding-bottom: 300px;
+   display: flex;
+   justify-content: center;
+}
+.wrapper {
+   width: 50%;
+   margin-left: 100px;
+   padding-top: 150px;
+}
+
+#numero__telefono {
+   padding: 0 20px 0 0;
+   height: 48px;
+}
+#contacto {
+   /* background-color: red;*/
+   min-height: 500px;
+   position: relative;
+}
+#numero {
+   text-decoration: none;
+}
+
+#ubi {
+   animation-name: cambioColor;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-duration: normal;
+}
+@keyframes cambioColor {
+   from {
+      background-color: cornsilk;
+   }
+   to {
+      background-color: azure;
+   }
+}
+
+#mov1 {
+   padding-left: 10px;
+   animation-name: escala;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+}
+@keyframes escala {
+   0% {
+      transform: scale(1);
+   }
+   20% {
+      transform: scale(1.01);
+   }
+   40% {
+      transform: scale(1.02);
+   }
+   60% {
+      transform: scale(1.03);
+   }
+   80% {
+      transform: scale(1.04);
+   }
+   100% {
+      transform: scale(1.05);
+   }
+}
+#servicios {
+   width: 100%;
+   cursor: default;
+   box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.5);
+   transition: all 400ms ease;
+}
+#servicios:hover {
+   box-shadow: 4px 10px 25px rgba(0, 0, 0, 1);
+   transform: translateY(-5%);
+}
+#equipo {
+   width: 100%;
+   cursor: default;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+   transition: all 500ms ease;
+}
+#equipo:hover {
+   box-shadow: 4px 10px 25px rgba(0, 0, 0, 1);
+   transform: translateX(-2%);
+}
+#equipo1 {
+   width: 100%;
+   cursor: default;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+   transition: all 500ms ease;
+}
+#equipo1:hover {
+   box-shadow: 4px 10px 25px rgba(0, 0, 0, 1);
+   transform: translateX(2%);
+}
+#wh {
+   transition: all 300ms ease;
+}
+#wh:hover {
+   transform: translateX(-5%);
+}
+#fc {
+   transition: all 300ms ease;
+}
+#fc:hover {
+   transform: translateY(-5%);
+}
+#inst {
+   transition: all 300ms ease;
+}
+#inst:hover {
+   transform: translateY(5%);
+}
+
+/*////PANTALLA COPLETA/////*/
+@media (max-width: 1200px) {
+   #local {
+      flex-wrap: wrap;
+      padding-top: 30px;
+   }
+   .wrapper {
+      width: 90%;
+      margin: auto;
+      padding-top: 50px;
+   }
+}
+/*///TAMAÑO DE LAS IMAGENES///*/
+.carousel-inner {
+   max-height: 25rem;
+}
+@media (max-width: 768px) {
+   /* body {
+      background-color: chartreuse;
+   }*/
+   #intro,
+   #equipo {
+      width: 100% !important;
+   }
+   #intro h1 {
+      color: black;
+      font-family: cursive;
+   }
+   #equipo1 {
+      width: 100% !important;
+      padding-top: 5px;
+   }
+   .servicio-fila {
+      width: 100% !important;
+      text-align: center;
+   }
+
+   #servicios img {
+      border: solid goldenrod;
+   }
+   #nosotros img {
+      border: solid goldenrod;
+      width: 80%;
+   }
+   #Nos {
+      flex-direction: column;
+   }
+   #redes img {
+      width: 30;
+      height: 30;
+      margin: 2px;
+   }
+   #presentacion {
+      width: 100% !important;
+      text-align: center;
+   }
+   #presentacion img {
+      border: solid goldenrod;
+      width: 80%;
+   }
+   #ubicanos {
+      background: blue;
+      background: linear-gradient(to left, rgb(140, 140, 185), rgb(99, 99, 247));
+      color: #f3f3f3;
+   }
+   .fondo {
+      background: red;
+      background: linear-gradient(to right, rgb(141, 94, 94), red);
+   }
+   #servicios {
+      background: linear-gradient(to left, rgb(135, 224, 135), rgb(58, 243, 58));
+      color: #f3f3f3;
+   }
+   #servicios p {
+      color: blueviolet;
+      font-family: cursive;
+   }
+   #servicios h3 {
+      color: blueviolet;
+   }
+   #Nos {
+      background: linear-gradient(to left, rgb(135, 224, 135), rgb(58, 243, 58));
+      color: #f3f3f3;
+   }
+   #Nos p {
+      color: blueviolet;
+      font-family: cursive;
+   }
+   #Nos h1 {
+      color: blueviolet;
+   }
+}
