@@ -93,7 +93,7 @@ body {
    }
 
    #Nos {
-      background: linear-gradient(to left, rgb(135, 224, 135), rgb(58, 243, 58));
+      background: $degradado;
       color: #f3f3f3;
       p {
          color: $color_texto;
