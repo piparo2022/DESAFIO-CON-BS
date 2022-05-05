@@ -1,0 +1,6 @@
+@mixin borde {
+   border: solid goldenrod;
+}
+#servicios img {
+   @include borde();
+}
