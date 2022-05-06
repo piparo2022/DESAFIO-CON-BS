@@ -9,9 +9,8 @@
    @include borde(red);
 }
 @mixin text_cards {
-   font-size: 10px;
    font-family: cursive;
 }
-#Main1 {
+#Main2 {
    @include text_cards;
 }
