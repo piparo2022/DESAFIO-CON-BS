@@ -31,7 +31,7 @@ body {
 @media (max-width: 768px) {
    #intro,
    #equipo {
-      width: 100% !important;
+      width: 100%; /*!important;*/
    }
    #intro h1 {
       color: black;
@@ -39,7 +39,7 @@ body {
       text-align: center;
    }
    #equipo1 {
-      width: 100% !important;
+      width: 100%; /*!important;*/
       padding-top: 5px;
    }
    .servicio-fila {
@@ -47,9 +47,9 @@ body {
       text-align: center;
    }
 
-   /* #servicios img {
-      border: solid goldenrod;
-   }*/
+   #servicios {
+      overflow: hidden;
+   }
    #nosotros img {
       border: solid goldenrod;
       width: 80%;
@@ -102,7 +102,12 @@ body {
          color: $color_texto;
       }
    }
+   #Main1,
    #Main2 {
       background: linear-gradient(to left, blue, red);
+      h4,
+      p {
+         color: white;
+      }
    }
 }
