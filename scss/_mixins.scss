@@ -1,6 +1,17 @@
-@mixin borde {
-   border: solid goldenrod;
+@mixin borde($colore) {
+   border: $colore;
 }
 #servicios img {
-   @include borde();
+   @include borde(goldenrod);
+}
+
+#Main2 img {
+   @include borde(red);
+}
+@mixin text_cards {
+   font-size: 10px;
+   font-family: cursive;
+}
+#Main1 {
+   @include text_cards;
 }
