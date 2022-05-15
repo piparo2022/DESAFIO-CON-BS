@@ -144,3 +144,11 @@ p {
 #imR {
    z-index: 2;
 }
+.display-6 {
+   color: black;
+   transition: color 1s;
+   cursor: pointer;
+}
+.display-6:hover {
+   color: rgb(75, 75, 129);
+}
