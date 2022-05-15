@@ -133,14 +133,11 @@ body {
     color: blueviolet;
   }
 
-  #Main1,
-#Main2 {
+  #Main1 {
     background: linear-gradient(to left, blue, red);
   }
   #Main1 h4,
-#Main1 p,
-#Main2 h4,
-#Main2 p {
+#Main1 p {
     color: white;
   }
 }
