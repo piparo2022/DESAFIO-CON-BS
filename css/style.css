@@ -134,7 +134,9 @@ body {
       cursor: pointer;
       background: linear-gradient(to left, blue, red);
    }
-   #Main1 h4,
+   #Main1,
+   h3,
+   h4,
    #Main1 p,
    #Main2 h4,
    #Main2 p {
