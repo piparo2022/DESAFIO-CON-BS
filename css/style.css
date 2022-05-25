@@ -29,16 +29,16 @@ body {
 }
 
 #color-Header {
-  background: linear-gradient(to left, blue, red);
+  background: rgb(93, 93, 228);
 }
 
 #menu {
-  background: linear-gradient(to left, rgb(230, 104, 104), rgb(131, 11, 11));
+  background: rgb(93, 93, 228);
 }
 #menu a {
   font-size: 20px;
   font-weight: lighter;
-  color: rgb(19, 241, 56);
+  color: black;
 }
 
 /*/////////////////////////////////////////////*/
@@ -199,22 +199,10 @@ p {
   z-index: 2;
 }
 
-#fondo_carrusel {
-  background: red;
-}
-
 #color-Header {
   font-family: cursive;
 }
 
 /*//////////////ESTILO FORMULARIO////////////////////////*/
-.form-control {
-  background-color: rgb(2, 26, 2);
-  border: solid rgb(163, 35, 35);
-}
-
-#form {
-  color: white;
-}
 
 /*# sourceMappingURL=style.css.map */
