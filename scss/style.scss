@@ -150,6 +150,7 @@ p {
    color: black;
    transition: color 0.5 s;
    cursor: pointer;
+   font-family: cursive;
 }
 .display-6:hover {
    color: rgb(75, 75, 129);
@@ -160,4 +161,44 @@ p {
 #color-Header {
    font-family: cursive;
 }
-/*//////////////ESTILO FORMULARIO////////////////////////*/
+/*//////////////////////////////////////*/
+#nos {
+   padding-top: 5rem;
+   background-image: url(../imagenes2/bm.jpg);
+   height: 80vh;
+   width: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: black;
+
+   /*padding-top: 25px;*/
+}
+
+#T_nosotros,
+#P_nosotros {
+   animation-duration: 3s;
+   animation-name: slidein;
+}
+
+@keyframes slidein {
+   from {
+      margin-left: 100%;
+      width: 300%;
+   }
+
+   to {
+      margin-left: 0%;
+      width: 100%;
+   }
+}
+
+/* animation: desvanecerseDerecha 1s ease forwards;
+   animation-name: desvanecerseDerecha;
+   animation-duration: 1s;
+   animation-timing-function: ease;
+   animation-delay: 0s;
+   animation-iteration-count: 1;
+   animation-direction: normal;
+   animation-fill-mode: forwards;
+   animation-play-state: running;
+   animation-timeline: ;*/
