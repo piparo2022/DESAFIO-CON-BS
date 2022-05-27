@@ -101,48 +101,47 @@ body {
 
   #ubicanos {
     background: linear-gradient(to left, rgb(140, 140, 185), rgb(99, 99, 247));
-    color: #f3f3f3;
+    color: black;
   }
 
-  .fondo {
-    background: red;
-    background: linear-gradient(to right, rgb(141, 94, 94), red);
-  }
-
+  /*.fondo {
+     background: red;
+     background: linear-gradient(to right, rgb(141, 94, 94), red);
+  }*/
   #servicios {
     /* background: linear-gradient(to left, rgb(135, 224, 135), rgb(58, 243, 58));*/
-    color: #f3f3f3;
+    color: black;
   }
   #servicios p {
-    color: blueviolet;
+    color: black;
     font-family: cursive;
   }
   #servicios h3 {
-    color: blueviolet;
+    color: black;
   }
 
   #Nos {
     /* background: $degradado;*/
-    color: #f3f3f3;
+    color: black;
   }
   #Nos p {
-    color: blueviolet;
+    color: black;
     font-family: cursive;
   }
   #Nos h1 {
-    color: blueviolet;
+    color: black;
   }
 
   #Main1,
 #Main2 {
     cursor: pointer;
-    background: linear-gradient(to left, blue, red);
+    /* background: linear-gradient(to left, blue, red);*/
   }
   #Main1 h4,
 #Main1 p,
 #Main2 h4,
 #Main2 p {
-    color: white;
+    color: black;
   }
 }
 .card {
@@ -206,14 +205,18 @@ p {
 
 /*//////////////////////////////////////*/
 #nos {
-  padding-top: 5rem;
-  background-image: url(../imagenes2/bm.jpg);
-  height: 100vh;
+  padding-top: 3rem;
+  /* background-image: url(../imagenes2/bm.jpg);
+  height: 80vh;
   width: 100%;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
   color: black;
   /*padding-top: 25px;*/
+}
+#nos #T_nosotros {
+  font-size: 3rem;
+  font-family: cursive;
 }
 
 #T_nosotros,
@@ -262,6 +265,31 @@ p {
     opacity: 1;
     -webkit-transform: translateY(0);
   }
+}
+#xx {
+  flex-direction: column;
+  background-image: url(../imagenes2/camaro.jpg);
+  height: 30vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(24, 4, 4);
+  align-items: flex-start;
+  gap: 5px;
+  overflow: hidden;
+}
+#xx img {
+  max-width: 20%;
+  margin-top: 2rem;
+}
+
+#xxx {
+  background-image: url(../imagenes2/caja.jpg);
+  height: 100vh;
+  width: 59%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
