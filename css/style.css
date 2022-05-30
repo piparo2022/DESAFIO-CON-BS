@@ -148,6 +148,7 @@ body {
   cursor: pointer;
   position: relative;
   overflow: hidden;
+  border: none;
 }
 
 /*.card-body {
@@ -178,6 +179,7 @@ p {
 
 .card-body {
   z-index: 2;
+  border: none;
 }
 
 #imR {
@@ -206,21 +208,17 @@ p {
 /*//////////////////////////////////////*/
 #nos {
   padding-top: 3rem;
-  /* background-image: url(../imagenes2/bm.jpg);
-  height: 80vh;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;*/
   color: black;
-  /*padding-top: 25px;*/
 }
-#nos #T_nosotros {
+#nos #T_nosotros,
+#nos #titulo_Me {
   font-size: 3rem;
   font-family: cursive;
 }
 
 #T_nosotros,
-#P_nosotros {
+#P_nosotros,
+#titulo_Me {
   animation-duration: 2s;
   animation-name: slidein;
 }
@@ -242,7 +240,7 @@ p {
 #M_rapida {
   padding-top: 5rem;
   background-image: url(../imagenes2/experiencia.jpg);
-  height: 100vh;
+  height: 60vh;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -267,7 +265,14 @@ p {
   }
 }
 #xx {
-  flex-direction: column;
+  padding-top: 5rem;
+  background-image: url(../imagenes2/camaro.jpg);
+  height: 60vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  /*flex-direction: column;
   background-image: url(../imagenes2/camaro.jpg);
   height: 30vh;
   width: 100%;
@@ -277,10 +282,11 @@ p {
   align-items: flex-start;
   gap: 5px;
   overflow: hidden;
-}
-#xx img {
-  max-width: 20%;
-  margin-top: 2rem;
+
+  img {
+     max-width: 20%;
+     margin-top: 2rem;
+  }*/
 }
 
 #xxx {
